@@ -1,0 +1,33 @@
+
+.LikeBtnBox{
+    display: flex;
+    width: 100%;
+    background-color: #0d253f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* height: 100%; */
+    /* margin: auto; */
+}
+.LikeBtn {
+    height: 100%;
+    border-radius: 10px;
+    width: 75%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:#0D253F;
+    color: #90CEA1;
+    border: none;
+    box-shadow: 5px 5px 8px rgb(2, 6, 11,.9), -5px -5px 8px  rgba(53, 73, 95, .9);
+    /* margin: auto; */
+   }
+   
+   
+   .btn:hover {
+    border: none;
+    box-shadow: inset 3px 3px 3px rgb(2, 6, 11,.9), inset -3px -3px 3px  rgba(53, 73, 95, .9);
+   }
+    

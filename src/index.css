@@ -1,11 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 
+Primary Color (Dark blue)
+Hex: #0d253f
+RGB: 13, 37, 63
+
+Secondary Color (Light blue)
+Hex: #01b4e4
+RGB: 1, 180, 228
+
+Tertiary Color (Light green)
+Hex: #90cea1
+RGB: 144, 206, 161
+
+Neumorphic Color Palette
+basic-white: #F0F0F3
+basic-white-2: #EEEEEE
+acitive-red: #FB7575
+acitive-blue: #745FF2
+text-primary: #745FF2
+text-secondary: #745FF2
+primary-green: #83DBD6
+primary-purple: #C590EF
+
+light: #FFFFFF
+ dark: #A3B1C6
+ main: #E0E5EC
+
+ */
+
+
+ body {
+  height: 100%;
+  width: 100%;
+ margin: auto;
+ background-color:#EBECF0;
+ color: #333;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+ 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+ sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
